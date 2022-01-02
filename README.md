@@ -12,7 +12,7 @@ git clone https://github.com/dch42/new_year.git && chmod +x ./new_year/new_year.
 ### Options
 
 ~~~
-Usage: new_year.sh [-he]
+Usage: new_year.sh [-hed]
   -h  help, show usage info
   -e  easy mode, increase odds of having a good year
   -d  discordian mode, use discordian year (ddate required)
