@@ -6,3 +6,14 @@ Add exec permissions to script and run:
 ~~~
 chmod +x new_year.sh && ./new_year.sh
 ~~~
+It will hopefully return something like:
+~~~
+2022 will be a good year!
+~~~
+
+### Options
+~~~
+Usage: new_year.sh [-he]
+  -h  help, show usage info
+  -e  easy mode, increase odds of having a good year
+~~~
