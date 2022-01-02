@@ -13,6 +13,9 @@ function usage {
     exit 1
 }
 
+[[ $UID = 0 ]] && 
+echo "It is not recommended to run divination scripts as root." && exit 1
+
 while getopts ${optstring} arg; 
 do
     case "${arg}" in
