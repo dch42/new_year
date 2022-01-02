@@ -6,7 +6,7 @@ declare -i roll=$(( $RANDOM % 2 + 1 ))
 declare optstring=":hed"
 
 function usage {
-    echo "Usage: $(basename $0) [-he]" 2>&1
+    echo "Usage: $(basename $0) [-hed]" 2>&1
     echo "  -h  help, show usage info"
     echo "  -e  easy mode, increase odds of having a good year"
     echo "  -d  discordian mode, use discordian year (ddate required)"
