@@ -7,7 +7,7 @@ declare optstring=":he"
 
 function usage {
     echo "Usage: $(basename $0) [-he]" 2>&1
-    echo "  -h  show usage info"
+    echo "  -h  help, show usage info"
     echo "  -e  easy mode, increase odds of having a good year"
     exit 1
 }
