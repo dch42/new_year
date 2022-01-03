@@ -22,7 +22,7 @@ do
         h) usage ;;
         e) roll=$(( $RANDOM % 7 + 1 )) ;;
         d) CURRENT_YEAR=`ddate +%Y` ;;
-        ?) echo "Invalide option: -${OPTARG}" && usage ;;
+        ?) echo "Invalid option: -${OPTARG}" && usage ;;
     esac
 done
 
